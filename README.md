@@ -14,6 +14,16 @@ Todas las rutas a archivos son relativas para funcionar también bajo el nombre 
 
 ## Ver y editar
 
+El código tiene comentarios en español. Buscá los comentarios de cada sección para encontrar rápidamente qué modificar:
+
+- **HTML:** estructura, textos, fotografías, video e íconos SVG de redes sociales.
+- **CSS:** variables de color al inicio, estilos por sección, reglas para celular y animaciones. Las reglas posteriores pueden sobrescribir las anteriores; conservá su orden.
+- **JavaScript:** menú móvil, año automático y mensaje de WhatsApp.
+
+Los íconos SVG contienen coordenadas de dibujo extensas: para cambiar textos o enlaces no necesitás editar esas coordenadas. El enlace a Facebook aparece junto al video y en el footer. El reel está en `assets/castillo-reel.mp4` y se reproduce manualmente.
+
+Cuando modifiques estilos, podés incrementar `?v=4` en el enlace a `styles.css` del HTML para que el navegador cargue la nueva versión.
+
 Abrí `index.html` en el navegador para revisar el sitio. También podés servir esta carpeta con cualquier servidor estático local.
 
 - `index.html`: textos, secciones, teléfono y enlaces de respaldo.
